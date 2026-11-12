@@ -28,7 +28,7 @@ include 'header.php';
         <div class="room">
             <h2><?php echo htmlspecialchars($room['name']); ?></h2>
             <p><?php echo htmlspecialchars($room['theme']); ?></p>
-            <a href="room.php?id=<?php echo $room['id']; ?>">Enter Room</a>
+            <a href="room_detail.php?id=<?php echo $room['id']; ?>">Bekijk Kamer</a>
         </div>
     <?php endforeach; ?>
 
